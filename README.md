@@ -34,3 +34,20 @@ echo "<img src="../img/aaron.png" />" >  aaron.html
 3. Arranco el **servidor PHP** y en el navegador se muestra la imagen del **HTML**
 
 ![](imagenes/index_php.png)
+
+## Colaboraciones
+He conado el repositorio de mi compañero en un directorio local y luego he creado una rama con mi nombre (aaron) dentro de su repositorio. Me he situado sobre la rama con mi nombre y he comprobado el *estado* y revisado los repositorios remotos que tengo configurados.
+
+```bash
+git clone git@github.com:vjp-aimarMG/PPSUnidad0Actividad5Aimar.git
+cd PPSUnidad0Actividad5Aimar
+git branch aaron
+git checkout aaron
+git status
+git remote -v
+```
+
+Después he creado en esta rama mi **foto** y mi **profile**.
+
+![](imagenes/cp_colaboracion.png)
+
