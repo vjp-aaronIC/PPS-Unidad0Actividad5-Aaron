@@ -51,3 +51,55 @@ Después he creado en esta rama mi **foto** y mi **profile**.
 
 ![](imagenes/cp_colaboracion.png)
 
+Primero he comprobado que mis compañeros han creado sus ramas con este comando:
+
+```bash
+git branch
+```
+
+![](imagenes/git_branch_companeros.png)
+
+He mostrado las diferencais entre mi rama **main** y las ramas de mis compañeros
+
+![](imagenes/git_diff_david.png)
+
+![](imagenes/git_diff_aimar.png)
+
+
+## Git logs
+
+ver los git logs
+
+```bash
+git log
+```
+
+![](imagenes/git_log.png)
+
+ver los últimos 3 logs
+
+```bash
+git log -3
+```
+
+![](imagenes/git_log-3.png)
+
+ver git log con pretty
+
+```bash
+git log --pretty
+````
+
+![](imagenes/git_log_pretty.png)
+
+ver las diferencias de los últimos dos commits
+
+```bash
+git log -p -n 2
+```
+
+ver los logs del último día
+
+```bash
+git log --since="1 day ago"
+```
